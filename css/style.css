@@ -1,157 +1,169 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&display=swap");
 
 @font-face {
-	font-family: "Bad Script";
-	src: url("../fonts/BadScript-Regular.woff2") format("woff2"), url("../fonts/BadScript-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Bad Script";
+  src: url("../fonts/BadScript-Regular.woff2") format("woff2"), url("../fonts/BadScript-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
 *::after {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
+
 /* li {
 	list-style: disc;
 } */
 a,
 a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-weight: inherit;
-	font-size: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
+
 img {
-	vertical-align: top;
+  vertical-align: top;
 }
+
 html {
-	font-size: 16px;
-	height: 100%;
+  font-size: 16px;
+  height: 100%;
 }
+
 body {
-	font-family: "Roboto Slab", serif;
-	/* font-size: 16px; */
-	font-weight: 400;
-	line-height: 1;
-	height: 100%;
+  font-family: "Roboto Slab", serif;
+  /* font-size: 16px; */
+  font-weight: 400;
+  line-height: 1;
+  height: 100%;
 }
 
 .wrapper {
-	line-height: 20px;
-	min-height: 100%;
-	overflow: hidden;
-	margin-left: 8%;
-	max-width: 60%;
+  line-height: 20px;
+  min-height: 100%;
+  overflow: hidden;
+  margin-left: 8%;
+  max-width: 60%;
 }
 
 .wrapper *:not(h1, h2, li, ol) {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
-	font-weight: 700;
-	font-size: 30px;
-	word-spacing: 10px;
-	padding-top: 40px;
-	margin-bottom: 50px;
-	line-height: 45px;
+  font-weight: 700;
+  font-size: 30px;
+  word-spacing: 10px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+  line-height: 45px;
 }
 
 h2 {
-	padding-top: 20px;
-	font-size: 27px;
-	font-weight: 700;
-	margin-bottom: 40px;
-	line-height: 35px;
-	word-spacing: 5px;
+  padding-top: 20px;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 35px;
+  word-spacing: 5px;
 }
 
 nav * {
-	color: black;
-	text-decoration: underline;
-	display: inline-block;
-	padding-top: 10px;
-	margin-right: 2px;
+  color: black;
+  text-decoration: underline;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 2px;
 
-	text-shadow: 1px 0 2px rgba(173, 160, 160, 0.952);
+  text-shadow: 1px 0 2px rgba(173, 160, 160, 0.952);
 }
+
 ol {
-	list-style-position: inside;
-	list-style-type: decimal;
+  list-style-position: inside;
+  list-style-type: decimal;
 }
+
 ul {
-	list-style-position: inside;
-	list-style-type: disc;
+  list-style-position: inside;
+  list-style-type: disc;
 }
 
 .main-text {
-	line-height: 23px;
+  line-height: 23px;
 }
 
 li:not(nav > ul > li) {
-	padding-left: 80px;
-	margin-bottom: 20px;
+  padding-left: 80px;
+  margin-bottom: 20px;
 }
+
 .text-background-color {
-	color: white;
-	background-color: rgb(38, 128, 38);
+  color: white;
+  background-color: rgb(38, 128, 38);
 }
 
 .question4 ul li {
-	line-height: 5px;
+  line-height: 15px;
 }
+
 .question4 p {
-	margin: 30px;
+  margin: 30px;
 }
+
 .img-track {
-	max-width: 700px;
-	max-height: 400px;
+  max-width: 700px;
+  max-height: 400px;
 }
 
 .mark-advice {
-	font-weight: 700;
-	color: rgb(124, 78, 78);
+  font-weight: 700;
+  color: rgb(124, 78, 78);
 }
 
 .wrapper .peopleImg {
-	/* width: 100%; */
-	max-width: 200px;
-	max-height: 300px;
-	margin-right: 10px;
-	margin-bottom: 5px;
+  /* width: 100%; */
+  max-width: 200px;
+  max-height: 300px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .green-color-text {
-	color: rgb(31, 177, 31);
-	font-family: "Bad Script";
-	font-weight: normal;
-	font-style: normal;
-	font-size: 18px;
+  color: rgb(31, 177, 31);
+  font-family: "Bad Script";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
 }
+
 .text-attention {
-	color: rgba(212, 34, 34, 0.829);
-	font-weight: 700;
+  color: rgba(212, 34, 34, 0.829);
+  font-weight: 700;
 }
 
 .slip-of-the-tongue {
-	font-size: 12px;
-	background-color: rgb(12, 12, 85);
-	color: white;
-	font-style: oblique;
-	padding: 14px;
+  font-size: 12px;
+  background-color: rgb(12, 12, 85);
+  color: white;
+  font-style: oblique;
+  padding: 14px;
 }
