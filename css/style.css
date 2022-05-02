@@ -113,7 +113,7 @@ li:not(nav > ul > li) {
 }
 
 .question4 ul li {
-	line-height: 5px;
+	line-height: 15px;
 }
 .question4 p {
 	margin: 30px;
